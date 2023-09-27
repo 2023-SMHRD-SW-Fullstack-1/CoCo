@@ -10,7 +10,6 @@ import { useEffect } from 'react';
 import startBtn from '../img/startBtn.png';
 import { useNavigate } from 'react-router-dom';
 import bigcoco from '../img/bigCoCo.png';
-import Logo from '../img/Logo.png';
 
 type FormData = {
   nickname: string;

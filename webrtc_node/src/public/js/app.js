@@ -82,7 +82,7 @@ async function getMedia(deviceId) { // 주어진 deviceId에 해당하는 미디
     myFace.srcObject = myStream;
     myFace.classList.add('rotateY');
     // HTML video element를 mute
-    // 테스트 위해 잠시 음소거 함
+    // 아래 코드는 테스트 위해 잠시 음소거
     myFace.muted = true;
 
     // 미디어 스트림의 오디오 트랙 자체를 비활성
