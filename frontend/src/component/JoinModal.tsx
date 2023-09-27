@@ -4,6 +4,7 @@ import '../css/JoinModal.css';
 import Select from 'react-select';
 import nextBtn from '../img/nextBtn.png';
 import X from '../img/x.png';
+import Logo from '../img/Logo.png';
 import axios from 'axios';
 import { useEffect } from 'react';
 import startBtn from '../img/startBtn.png';
@@ -88,7 +89,7 @@ const JoinModel = ({ onClose, setIsJoinModal }:{onClose: ()=>void, setIsJoinModa
       console.error('데이터를 서버로 전송하는 중 오류가 발생했습니다.', error);
     }
 
-    Cookies.remove('CUST_IMG');
+    Cookies.remove('coin');
     window.location.replace("/")
   };
 
@@ -319,7 +320,7 @@ const JoinModel = ({ onClose, setIsJoinModal }:{onClose: ()=>void, setIsJoinModa
             {/* 환영인사 부분  */}
             <div className='welcome-text1'> <h1>{nick}님 축하합니다!</h1> </div>
             <div className='welcome-text2'> <h1>회원가입 되었습니다!</h1> </div>
-            <img src={bigcoco} className='welcome-logo'></img>
+            <img src={Logo} className='welcome-logo'></img>
             <img src={startBtn} className='startBtn' onClick={handleStart}></img>
           </div>
         </div>
