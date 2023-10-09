@@ -13,7 +13,7 @@
 ## 📌 서비스 흐름도
 ![서비스흐름도](https://github.com/2023-SMHRD-SW-Fullstack-1/CoCo/assets/122369935/18442da5-fbc0-45dd-a953-a601bdf0b8af)
 ## 🖥️ 시연 영상
-https://github.com/2023-SMHRD-SW-Fullstack-1/Blueme/assets/114223221/5c9d9cda-8c1a-49dd-bafd-bfdaaef97a42
+https://github.com/2023-SMHRD-SW-Fullstack-1/CoCo/assets/122369935/102eab23-dce2-4477-ab2f-9c6bfe92e581
 
 ## 👥 팀원 역할
 
